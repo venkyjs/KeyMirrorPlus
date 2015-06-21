@@ -1,0 +1,65 @@
+{
+  "name": "keymirrorplus",
+  "version": "1.0.0",
+  "description": "This utility mirrors the keys upto n-th level",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:venkyjs/keymirrorplus.git"
+  },
+  "author": "venkyjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venkyjs/keymirrorplus/issues"
+  },
+  "homepage": "https://github.com/venkyjs/keymirrorplus",
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "testling": {
+    "files": "test/**.js",
+    "browsers": {
+      "ie": [
+        9,
+        10,
+        11
+      ],
+      "firefox": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "safari": [
+        5.1,
+        6
+      ],
+      "opera": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
+    }
+  }
+}
