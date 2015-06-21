@@ -5,6 +5,8 @@ The library will create the values same as the constant. This library also suppo
 creation of multi-level constants. This work has been inspired from
 [bloody-keymirror](https://github.com/bloodyowl/keymirror) and [mirrorkey](https://github.com/janhancic/mirrorkey)
 
+[![Build Status](https://travis-ci.org/venkyjs/KeyMirrorPlus.svg)](https://travis-ci.org/venkyjs/KeyMirrorPlus)
+
 ## Installation
 
 ```sh
