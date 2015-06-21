@@ -27,7 +27,11 @@ It takes an object or an array of strings and
 creates a new object having original object's keys
 and value would be the same as the key
 
-## example
+## Usage
+
+Following are couple use cases for KeyMirrorPlus
+
+### Single-Level
 
 ```javascript
 var constants = keyMirrorPlus({
@@ -36,6 +40,24 @@ var constants = keyMirrorPlus({
 });
 
 console.log(constants.GET_DATA); // "GET_DATA"
+```
+
+### Multi-Level
+
+
+```javascript
+var constants ={
+    FOO : "FOO",
+    BAR : "BAR",
+    BAZ : "BAZ",
+    XYZ: {
+      ABC : "ABC",
+      JKL: "JKL"
+    }
+  };
+
+console.log(constants.XYZ); // {"ABC":"ABC", "JKL":"JKL"}
+console.log(constants.XYZ.ABC); // "ABC"
 ```
 
 
